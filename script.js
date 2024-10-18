@@ -9,6 +9,3 @@ function changeText() {
 
 // Change text every 20 seconds
 setInterval(changeText, 20000);
-
-
-
