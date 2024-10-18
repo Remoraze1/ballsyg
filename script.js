@@ -1,5 +1,5 @@
-const images = ['image1.jpg', 'image2.jpg', 'image3.jpg']; // List your images here
-const texts = ['Welcome to the Website', 'Discover Amazing Content', 'Stay Tuned for More'];
+const images = ['egg.jpg', 'ussr.jpg', 'pumkin.jpeg']; // List your images here
+const texts = ['ballsyg', 'Discover Amazing Content', 'justice];
 
 let currentImageIndex = 0;
 let currentTextIndex = 0;
