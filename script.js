@@ -1,5 +1,5 @@
 const images = ['egg.jpg', 'ussr.jpg', 'pumkin.jpeg']; // List your images here
-const texts = ['ballsyg', 'Discover Amazing Content', 'justice];
+const texts = ['ballsyg', 'Discover Amazing Content', 'justice'];
 
 let currentImageIndex = 0;
 let currentTextIndex = 0;
@@ -14,4 +14,5 @@ function changeImageAndText() {
 
 // Change image and text every 20 seconds
 setInterval(changeImageAndText, 20000);
+
 
