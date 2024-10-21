@@ -6,6 +6,15 @@ const texts = [
     'BallsyG, the newest concrete type!',
     'GitHub is unblocked on FortiGuard I think',
     'BallsyG is unblocke'
+    'BallsyG can kill 2 stones with 1 bird'
+    'Promote BallsyG to ur friends and people u know'
+    'Become a pupil of BallsyG'
+    'BallsyG is going to take over the world' 
+    'Insurance fraud' 
+    'When BallsyG wants an egg he usually cracks open a chicken.'
+    'commnunism'
+
+
 ];
 
 // Initial index for rotating text
