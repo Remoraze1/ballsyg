@@ -1,62 +1,48 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url('background.jpg') no-repeat center center fixed;
-  background-size: cover;
-  color: white;
-  text-align: center;
-  flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
 }
 
 h1 {
-  font-size: 8rem; /* Larger title size */
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
-  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
-  position: absolute;
-  top: 10%; /* Moves the title higher */
-  width: 100%;
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 20%; /* Higher position */
+    width: 100%;
 }
 
 #text-display {
-  font-size: 6rem; /* Larger rotating text */
-  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
-  position: absolute;
-  bottom: 20%; /* Adjusts the position of the rotating text */
+    font-size: 4rem;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 30%; /* Adjust this value to position higher or lower */
 }
 
-#sfcbsh4n1t59zc5gbeuqcptnwwf99368qg4 {
-  font-size: 4rem; /* Set the counter size */
-  position: absolute;
-  bottom: 30%; /* Position the counter below the changing text */
+#counter {
+    font-size: 4rem; /* Make the counter bigger */
+    margin-top: 20px; /* Space between changing text and counter */
+    position: relative; /* Position relative for stacking */
 }
 
 .sliding-text {
-  position: absolute;
-  font-size: 3rem; /* Set size for the sliding text */
-  white-space: nowrap;
-  width: 100%;
-  color: yellow; /* Set the sliding text color to yellow */
-  animation: slide 10s linear infinite; /* Animation to slide text */
-  top: 50px; /* Position the sliding text near the top */
+    font-size: 3rem; /* Adjust size for the sliding text */
+    position: absolute;
+    bottom: 10%; /* Position near the bottom */
+    color: yellow; /* Set sliding text color to yellow */
 }
 
-@keyframes slide {
-  0% {
-    transform: translateX(100%); /* Start from the right */
-  }
-  50% {
-    transform: translateX(-100%); /* Move to the left */
-  }
-  100% {
-    transform: translateX(100%); /* Loop back to the right */
-  }
-}
 
 
 
