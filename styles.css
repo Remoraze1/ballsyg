@@ -30,5 +30,35 @@ h1 {
   bottom: 40%; /* Adjusts the position of the rotating text */
 }
 
+.sliding-text {
+  position: absolute;
+  font-size: 3rem;
+  white-space: nowrap;
+  width: 100%;
+  text-align: center;
+  animation: slide 10s linear infinite;
+}
+
+.top-slide {
+  top: 0; /* Sliding from the top */
+}
+
+.bottom-slide {
+  bottom: 0; /* Sliding from the bottom */
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+
 
 
