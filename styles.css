@@ -38,9 +38,28 @@ h1 {
 
 .sliding-text {
     font-size: 3rem; /* Adjust size for the sliding text */
-    position: absolute;
-    bottom: 10%; /* Position near the bottom */
     color: yellow; /* Set sliding text color to yellow */
+    position: absolute;
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflow text */
+    animation: slide 15s linear infinite; /* Sliding animation */
+}
+
+.top-sliding {
+    top: 10%; /* Position the top sliding text */
+}
+
+.bottom-sliding {
+    bottom: 10%; /* Position the bottom sliding text */
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-100%); /* Start off screen to the left */
+    }
+    100% {
+        transform: translateX(100%); /* Move to off screen to the right */
+    }
 }
 
 
