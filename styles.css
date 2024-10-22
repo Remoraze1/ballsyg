@@ -37,6 +37,7 @@ h1 {
   width: 100%;
   text-align: center;
   animation: slide 10s linear infinite;
+  color: yellow; /* Set the sliding text color to yellow */
 }
 
 .top-slide {
@@ -58,6 +59,7 @@ h1 {
     transform: translateX(100%);
   }
 }
+
 
 
 
