@@ -7,14 +7,12 @@ const texts = [
     'GitHub is unblocked on FortiGuard I think',
     'BallsyG is unblocke',
     'BallsyG can kill 2 stones with 1 bird',
-    'Promote BallsyG to ur friends and people u know',
+    'Promote BallsyG to your friends and people you know',
     'Become a pupil of BallsyG',
     'BallsyG is going to take over the world',
     'Insurance fraud',
     'When BallsyG wants an egg he usually cracks open a chicken.',
-    'commnunism'
-
-
+    'Communism'
 ];
 
 // Initial index for rotating text
@@ -29,3 +27,4 @@ function changeText() {
 // Call the function every 2.5 seconds (2500 milliseconds)
 changeText(); // Initial call to show the first text immediately
 setInterval(changeText, 2500); // Change every 2.5 seconds
+
